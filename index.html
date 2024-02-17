@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>
+harsh's webpage
+</title>
+
+ <link rel="stylesheet" href="harsh2.css">   
+
+<script type="text/javascript" src="function">
+
+</script>
+
+</head>
+
+
+<body  bgcolor="white"class="container">
+
+    <div><h2 align="center"><i><span id="header">fill your details in following form for security perposses .Password should be 8 character's</span></i></h2></div>
+
+    <ol text="I">
+        <li>
+       This is html webpage .
+
+        </li>
+        <li>
+This is also Css webpage.
+</li>
+<li>
+    Both are main required of website.
+            
+</li>
+        
+    </ol>
+    <div><frameset> 
+
+        <frame src="harsh2.html">
+    
+    </frameset></div>
+    
+<div  class="image-container">
+
+    <img src="https://media1.tenor.com/images/6e7e7192bde1a74de44aecd226dbd900/tenor.gif?itemid=9650603.gif" height="30%" width="20%" alt="Image 1"> 
+         <!--Container element-->
+    <img src="http://66.media.tumblr.com/7542b98093659de9c6394b36ecf9577c/tumblr_oevn0maiEK1qzu2a2o1_1280.gif" height="30%" width="50%"alt="Image 2">
+    <img src="https://i.pinimg.com/originals/ba/cc/40/bacc40d9a4c490d82da17881c1bce06e.gif" height="30%" width="28%"alt="Image 3"></div>
+
+
+    
+  <div id="form1"><form action="backgend.php">
+      
+      <br >Name:<input type="text"    name="my nsme"></br>
+      
+<br>ROllno:<input type="text"   name="my nsme"></br>
+ <br>id:<input type="number"    name="my nsme"></br>
+<br>Email:<input type="email"    name="my nsme"></br>
+<br>display:</br>
+<br>Male:<input type="radio"    name="my Gender"></br>
+
+<br>female:<input type="radio"    name="my Gender"></br>
+
+<br>Others:<input type="radio"    name="my Gender"></br>
+
+<br>Password:<input type="password"        name="my password"> </br>
+
+<div>Phone no:<input type="tel" inputmode="numeric" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> </div>
+
+<strong></b><small>format:123-456-7890</small></strong>
+
+      <div>OTP :<input type="OTP" inputmode="numeric" name="OTP"></div>
+
+      <br>Are you eligiable:<input type ="checkbox" name="my eligiable"></br>
+
+      <br class="submit"><input type="submit"             name="submit Now "></br>
+
+      <br><input type="reset"            name="reset Now"></br>
+
+      <br><input type="option"           name ="choose option"></br>
+      
+
+      <input type="text" id="name"/>
+
+
+
+
+
+
+
+      
+      
+    </form>
+</div>
+<p class="animation">fill your details properly and checked before submition.</p>
+
+<div align="center" ><iframe src="https://www.ndtv.com/"  height="80%" width="100%"></iframe></div>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<i><div class="calbor"><div class="t1"><h1>calculator</h1></div></i>
+
+
+
+<input type="text" name="first" id="first" step="any">
+
+<select id="ope">
+    
+                     <option value="+">+</option>
+                     <option value="-">-</option>
+                     <option value="*">×­</option>
+                     <option value="/">/</option>
+                     </select>
+                
+                     <input type="text" name="second" id="second" step="any"/>
+                    <br> <button onclick="cal()" class="t2" > Calculate</button></br>
+
+                     <br> <input type="text" name=""  id="res"   readonly=""></br></div>
+
+
+                    
+               <div id="ani"></div>
+                    
+                </body>
+ 
+                <script type="text/javascript">
+                    
+                    
+                    // staring Build in function
+                    
+
+
+                    // alert("welcome");                                                      //function works as a alerter message shown ok or an error
+                    
+                    //console.log("this is only for testing of js");                        //function inspect use to message in console page
+                    
+                    //  document.write("<h1> hello !</h1>");                               //function is use webpage writting messages.
+                    
+                    // prompt("please Enter your name","welocome to site");     
+            
+                    //confirm ("Do you want to login");             
+                    
+              //var name="checkbox";
+              
+              //var kame="checkbox";
+              
+              //var car="name"+"kame";
+              
+              // console.log(car);
+              
+              
+  //var x=document.getElementsByClassName("main")[1].innerHTML="FIRST PLACE OD DIV THIS IS INNER HTML";
+
+ // var x=document.getElementsByClassName("main")[0].innerHTML="SECONFD PLACE OF DIV THIS IS INNER HTML";
+
+ 
+
+// Starting User defined function
+
+                                             function cal()
+                                             {  
+                                             var opr1 = document.getElementById('first').value;
+                                             var opr2 = document.getElementById('second').value;
+                                             var ope = document.getElementById('ope').value;
+                                             if(ope=='+')
+                                             {
+                                             var res= parseInt(opr1) + parseInt(opr2);
+                                             
+                                             } 
+                                             if(ope=='-') 
+                                             { 
+                                             var res= parseInt(opr1) - parseInt(opr2);
+                                             
+                                             } 
+                                             if(ope=='*') 
+                                             { 
+                                             var res= parseInt(opr1) * parseInt(opr2);
+                                             
+                                             } 
+                                             if(ope=='/') 
+                                             { 
+                                             var res= parseInt(opr1) / parseInt(opr2);
+                                             
+                                             }
+                                             document.getElementById('res').value=res;
+                                             }
+                                             
+                                                                                                                    
+                                             </script>
+                                             
+                                             </html>
+                                             
+
