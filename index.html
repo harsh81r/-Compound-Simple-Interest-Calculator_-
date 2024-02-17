@@ -1,58 +1,88 @@
+#main{
+
+    
+
+        background-color:royalblue;
+  
+        height: 800px; 
+
+        width: 900px;
+
+        padding-left:10px ;
+
+        margin: 50px 350px 0px 300px;
+
+        border-width :10px;
+        border-color: black;
+        border-radius: 3%;
+
+    }
 
 
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<head>
-<title>
-   || Simple Interest ||
-</title>
-<link rel="stylesheet" href="simple.css">     
-
-</head>
-<body bgcolor="navyblue" text-color="white">
-
-<div align="center">
-
-<h1><span id="heading">Compound Interest & Simple Interest Calculator</span></h1>
-<!--<br><span id="heading">Simple interest = principle amount * rate of interest * time in years / 100</span></br>-->
-
-<h2 id="main"><br>PrincipleAmount(Rs/-) </br><br><input type="text" name="first" id="first" step="any"></br> 
-
-<br> Rate of interest'%'</br><br><input type="persent%" name="first1" id="first1" step="any"></br>
-      
-<br> Time period(yearly)   </br><br><input type="text" name="second" id="second" step="any" ></br>
-
-<br><button onclick="interest()" id="button">Calculate Interest</button></br>
-  <br>Simple Interest :<input type="text" name="res"   id="res"    readonly=""></br>
-<br>Compound Interest :<input type="text" name="total" id="total"  readonly=""></br>
-
-</div></h2>
-</body>
-
-<script type="text/javascript">
-
-function interest()
-
+#heading
 {
-   var opr1 = document.getElementById('first').value;               
-   var opr2 = document.getElementById('first1').value;
-   var opr3 = document.getElementById('second').value;
 
-   var res=parseInt(opr1) * parseInt(opr2) * parseInt(opr3)/100;
-   var total=parseInt(opr1) +parseInt(opr1) * parseInt(opr2) * parseInt(opr3)/100 ;
-   
-   document.getElementById('res').value=res;
-   document.getElementById('total').value=total;
+    color: aliceblue;
+background-color: darkslateblue;
 
 }
+#button{
 
-</script>
-<html>
+    color:darkslateblue;
+    background-color:cyan;
+    font-size: 20px;
+    height:100px ;    
+ 
+border-color: darkslateblue;
+    border-width: 10px;
+    width:248px;
+    border-radius: 50px;
+    
+
+
+}
+#first
+{
+text-align: center;
+height: 50px;
+width: 200px;
+font-size :20px;
+}
+#first1{
+text-align: center;
+height: 50px;
+width: 200px;
+font-size :20px;
+
+
+}
+#second
+{
+
+text-align: center;
+height: 50px;
+width: 200px;
+font-size :20px;
+}
+#res
+{
+
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    font-size :20px;
+ }
+
+
+
+#total
+{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    font-size :20px;
+}
+
+
+
+
